@@ -1,0 +1,7 @@
+<div class="lifecycle">
+    <p>Open the console of this box — it shows lifecycle calls when this component is created/destroyed.</p>
+    <button (click)="clear()">Clear log</button>
+    <ul>
+        <li *ngFor="let l of log">{{ l }}</li>
+    </ul>
+</div>
